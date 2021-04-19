@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>守望先锋</title>
+    <link rel="Shortcut Icon" href="/Resource/WebsiteLogo.ico" type="image/x-icon" />
+    <link href="/css/MasterPage.css" type="text/css" rel="stylesheet" />
+    <script src="/js/jquery.min.js"></script>
+    @RenderSection("Head", false)
+</head>
+<body>
+    @RenderSection("Body1", false)
+    <div id="top">
+        <div id="nav_logo">
+            <a id="nav_logo_a" href="/Main/Main"></a>
+        </div>
+        <div class="nav">
+            游戏介绍
+            <a class="nav_a" href="/Main/Introduction"></a>
+        </div>
+        <div class="nav">
+            英雄
+            <a class="nav_a" href="/Hero/SelectHero"></a>
+        </div>
+        <div class="nav">
+            地图
+            <a class="nav_a" href="/Map/ShowMap"></a>
+        </div>
+        <div id="nav_buy">
+            购买
+            <a class="nav_a" href="https://www.battlenet.com.cn/shop/zh/product/game/overwatch"></a>
+        </div>
+        <div id="nav_login">
+            <a id="nav_login_a" href="/Admin/AdminLogin"></a>
+        </div>
+    </div>
+    @RenderSection("Body2", false)
+</body>
+</html>

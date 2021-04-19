@@ -1,0 +1,65 @@
+﻿#bg_video
+{
+    position: fixed;
+    z-index: -100;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+#form_login
+{
+    margin: 16vw auto 0;
+    padding-top: 1vw;
+    width: 18vw;
+    height: 18vw;
+    background-color: white;
+    opacity: 0.6;
+}
+#admin_logo_div
+{
+    margin:1vw auto 1vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+.lb_tb_div
+{
+    width: 80%;
+    height: 2vw;
+    margin: auto;
+}
+.Label
+{
+    line-height:1vw;
+    float: left;
+    font-size:0.8vw;
+    width:20%;
+    height:1vw;
+}
+.TextBox
+{
+    float: left;
+    font-size: 0.8vw;
+    width: 70%;
+    height: 1vw;
+}
+
+#login_button_div
+{
+    margin:auto;
+    width: 2vw;
+    height: 1.2vw;
+    text-align:center;
+}
+#login_button {
+    background-color: black;
+    font-size: 0.7vw;
+    color: white;
+}
+#login_button:hover
+{
+    background-color: white;
+    color: black;
+}

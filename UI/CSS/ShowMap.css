@@ -1,0 +1,124 @@
+﻿html
+{
+    height: 100%;
+}
+body
+{
+    height: 100%;
+}
+#background
+{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(/resource/ShowMap/background.jpg);
+    position: fixed;
+    z-index: -100;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+#text_title
+{
+    width: 20%;
+    font-style: italic;
+    font-size: 3vw;
+    color: rgb(75,83,93);
+    margin: 3vw auto 0vw auto;
+    text-align: center;
+}
+
+#mask_left
+{
+    float: left;
+    border-bottom: 1vw solid #f2f1ed;
+    border-right: 1vw solid transparent;
+    width: 22vw;
+    height: 6vw
+}
+
+#mask_right
+{
+    float: right;
+    margin-bottom: 1vw;
+    border-bottom: 1vw solid #f2f1ed;
+    border-left: 1vw solid transparent;
+    width: 22vw;
+    height: 6vw;
+}
+#map_button_div {
+    margin: 2vw auto 0vw auto;
+    width: 80%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.map_type_bt
+{
+    background-color: lightgrey;
+    width: 120vw;
+    height: 1vw;
+    line-height:1vw;
+    margin: 0 0.5vw;
+    cursor: pointer;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 6px;
+}
+.map_type_bt:hover
+{
+    background-color: #00a5e2;
+}
+.map_type_bt:hover .bt_text
+{
+    color: white;
+}
+#all_map_bt_text 
+{
+    line-height: 1vw;
+    width: 5vw;
+    height: 1vw;
+    margin: auto;
+    float: none;
+}
+.bt_text {
+    width: auto;
+    height: auto;
+    line-height: 1vw;
+    font-size: 0.6vw;
+    display: inline-block;
+}
+.bt_svg
+{
+    width: 1vw;
+    height: 1vw;
+    display:inline-block;
+}
+#map_div
+{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.map
+{
+    width: 10vw;
+    height: 6vw;
+    float: left;
+    margin: 0 0.5vw 0.5vw 0.5vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.map_text
+{
+    height: 20%;
+    width: 100%;
+    font-weight: 800;
+    margin-top: 50%;
+    background-color: rgba(40, 53, 79, .9);
+    color:white;
+    text-align:center;
+}

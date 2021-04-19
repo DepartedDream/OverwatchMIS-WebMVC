@@ -1,0 +1,65 @@
+﻿html
+{
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+}
+#show_video
+{
+    position: fixed;
+    z-index: -100;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+#show_div
+{
+    padding-top:35%;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+#skill_name
+{
+    margin: 0 auto 3%;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+    font-style: italic;
+    color: #f89e35;
+}
+#skill_detail
+{
+    font-size: 0.8vw;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+#skill_div
+{
+    display: inline-block;
+    margin: 2% auto 0vw;
+    height: 5vw;
+}
+.skill_logo
+{
+    margin-right: 0.4vw;
+    width: 5vw;
+    height: 6vw;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.skill_logo:hover
+{
+    opacity:1;
+}

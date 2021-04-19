@@ -1,0 +1,26 @@
+﻿#bg_video
+{
+    position: fixed;
+    z-index: -100;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+#table_type_div 
+{
+    text-align:center;
+    width:3vw;
+    margin: 1vw auto 0 auto;
+    height: 1.2vw;
+    font-size: 1vw;
+}
+#data_table
+{
+    width: 80vw;
+    border: 1px;
+    background-color: #616161;
+    color: white;
+    opacity: 0.8;
+    margin: 1vw auto 0 auto;
+}

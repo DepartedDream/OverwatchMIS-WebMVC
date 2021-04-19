@@ -1,0 +1,45 @@
+﻿body {
+}
+#bg_video
+{
+    position: fixed;
+    z-index: -100;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+#update_form
+{
+    margin:10vw auto 0 auto;
+    width:30vw;
+    height:30vw;
+    text-align:center;
+}
+.box_div
+{
+    width: 35vw;
+    height: 5vw;
+}
+.text_div
+{
+    width: 10vw;
+    height: 3vw;
+    float: left;
+    text-align: center;
+    line-height: 250%;
+    font-size: 1.3vw;
+}
+.text_input
+{
+    width: 23vw;
+    height: 3vw;
+    float: right;
+    font-size: 1.3vw;
+}
+#submit_input
+{
+    width: 23vw;
+    height: 3vw;
+    font-size: 1.3vw;
+}

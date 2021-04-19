@@ -1,0 +1,99 @@
+﻿html
+{
+    height: 100%;
+}
+
+body
+{
+    margin:0;
+    height: 100%;
+}
+
+#top
+{
+    position: relative;
+    top: 1vw;
+    width: 70%;
+    height: 1.8vw;
+    margin: 0 auto 0 auto;
+    background-color: white;
+}
+
+.nav {
+    border-right: 1px #E0E0E0 solid;
+    width: 10%;
+    height: 1.8vw;
+    float: left;
+    color: #333;
+    background-color: white;
+    line-height: 1.8vw;
+    text-align: center;
+    font-size: 0.7vw;
+}
+.nav:hover
+{
+    background-color: #4b535d;
+    color: #f7931e;
+}
+#nav_logo
+{
+    float: left;
+    width: 2vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(/resource/nav_logo.jpg);
+}
+#nav_buy
+{
+    float: right;
+    width: 10%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-size: 0.7vw;
+    line-height: 250%;
+    background-color: #f7931e;
+}
+#nva_buy:hover
+{
+    background-color: #f89e35;
+}
+
+.nav_a
+{
+    float:right;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    bottom: 100%;
+}
+
+#nav_logo_a
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+    bottom: 0%;
+}
+
+#nav_login
+{
+    border-right: 1px #E0E0E0 solid;
+    width: 10%;
+    height: 100%;
+    float: right;
+    color: #333;
+    background-color: white;
+    line-height: 250%;
+    text-align: center;
+    font-size: 0.7vw;
+}
+
+#nav_login_a
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+}

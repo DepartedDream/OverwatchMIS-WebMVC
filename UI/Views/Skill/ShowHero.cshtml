@@ -1,0 +1,21 @@
+﻿@using Model;
+@{
+    ViewBag.Title = "ShowHero";
+    Layout = "~/Views/Shared/LayoutPage.cshtml";
+}
+@section Head{
+    <link href="/css/ShowHero.css" type="text/css" rel="stylesheet" />
+    <script src="/js/ShowHero.js"></script>
+}
+@section Body1{
+    <video id="show_video" autoplay="autoplay" muted="muted"></video>
+}
+@section Body2{
+    <div id="show_div">
+        <div id="skill_name"></div>
+        <div id="skill_detail"></div>
+        <div id="skill_div">
+            @Html.Raw(ViewData["skillDivHtml"])
+        </div>
+    </div>
+}
